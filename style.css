@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(77, 248, 248);
+}
+.rubrica-card {
+    border-radius: 5px;
+    background: linear-gradient(to top, #fff8e8,#fcd581, #d52941);
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-height: 200px;
+    position: relative;
+}
+.rubrica-card .avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rubrica-card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rubrica-card .info >* {
+    margin-top: 15px;
+}
+
+.rubrica-card .rubrica-card-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.rubrica-input {
+    border-bottom-right-radius:0;
+    border-top-right-radius:0;
+}
